@@ -11,3 +11,11 @@ func Increment() int {
     return counter
 }
 
+
+func min(a, b int) int {
+    if a < b {
+        return a
+    }
+    return b
+}
+
